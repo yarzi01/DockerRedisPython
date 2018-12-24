@@ -13,7 +13,7 @@ driver.get("http://localhost:5000/")              #open the webpage
 time.sleep(5)
 
 my_txt=driver.find_element_by_css_selector("body").text
-print(smart_text(my_txt))
+print(my_txt)
 
 driver.close()
 driver.quit()
